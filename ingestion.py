@@ -15,7 +15,7 @@ if __name__ == "__main__":
     #Loading the document
     print("Ingesting...")
 
-    loader = TextLoader("C:/Users/satvi/OneDrive/Desktop/langchain_medium/ingestion.py")
+    loader = TextLoader("C:/Users/satvi/OneDrive/Desktop/langchain_medium/Langchain_Medium/ingestion.py")
     document = loader.load()
 
     #splitting the document
